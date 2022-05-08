@@ -65,7 +65,7 @@ async def read_questions():
     query = questions.select()
     return await database.fetch_all(query)
 
-#Выполняет цикл заданное questions_num количество раз
+#Выполняем цикл заданное questions_num количество раз
 @app.post("/questions/", response_model=Question)
 async def create_question(questions_num: Ques_num):
     i=1
