@@ -1,7 +1,0 @@
-fastapi
-psycopg2-binary
-sqlmodel
-uvicorn
-beautifulsoup4
-requests
-databases[postgresql]
