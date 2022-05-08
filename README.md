@@ -1,4 +1,5 @@
-1) Создаем проект командой с помощью docker-compose из файла docker-compose.yml, билдим docker-образ и запускаем docker-контейнер.
+1) Создаем проект с помощью docker-compose из файла docker-compose.yml, билдим docker-образ и запускаем docker-контейнер.
+Команду запускать в корневой папке проекта.
 docker-compose up -d --build
 
 2) Заходим в браузере http://localhost:8004/docs и в окне POST запроса в теле запроса "questions_num" задаем необходимое количество вопросов. Нажимаем Execute. В Response body получаем в результате строку "question" с значением предыдущего сохраненного вопроса.
